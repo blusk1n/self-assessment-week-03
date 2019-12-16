@@ -5,8 +5,8 @@ angular.module('fish-pond')
   },
   template: `
     <div>
-      <fish-table-row></fish-table-row>
-      <fish-table-row></fish-table-row>
-      <fish-table-row></fish-table-row>
+      <fish-table-row> $ctrl.fishes.name</fish-table-row>
+      <fish-table-row>$ctrl.fishes.image</fish-table-row>
+      <fish-table-row>$ctrl.fishes.description</fish-table-row>
     </div>`
 });
